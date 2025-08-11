@@ -1,9 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int main(){
-    int n = 5;
-    int arr[5] = {5, 4, 3, 2, 1};
+void selectionSort(int arr[], int n){
     for (int i = 0; i < n - 1; i++){
         int sm = i;
         for (int j = i + 1; j < n; j++){
@@ -13,10 +11,14 @@ int main(){
         }
         swap(arr[i], arr[sm]);
     }
+}
 
+int main(){
+    int n = 5;
+    int arr[5] = {5, 4, 3, 2, 1};
+    selectionSort(arr, n);
     for (int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
-
     return 0;
 }

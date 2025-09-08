@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 void selectionSort(int arr[], int n){
     for (int i = 0; i < n - 1; i++){
         int sm = i;
@@ -11,8 +10,7 @@ void selectionSort(int arr[], int n){
         }
         swap(arr[i], arr[sm]);
     }
-}
-
+} 
 int main(){
     int n = 5;
     int arr[5] = {5, 4, 3, 2, 1};

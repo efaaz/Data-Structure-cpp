@@ -56,12 +56,12 @@ public:
         top--;
     }
 
-    int peek()
+    T peek()
     {
         if (isEmpty())
         {
             cout << "Stack is empty\n";
-            return -1;
+            return T();
         }
         return arr[top];
     }

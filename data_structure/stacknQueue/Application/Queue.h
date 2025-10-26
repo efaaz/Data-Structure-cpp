@@ -1,5 +1,3 @@
-#ifndef MY_QUEUE
-#define MY_QUEUE
 #include <iostream>
 using namespace std;
 template <typename T>
@@ -81,5 +79,3 @@ public:
             }
     }
 };
-
-#endif

@@ -1,6 +1,3 @@
-#ifndef MY_STACK
-
-#define MY_STACK
 #include <iostream>
 using namespace std;
 template <typename T>
@@ -80,4 +77,3 @@ public:
         cout << endl;
     }
 };
-#endif
